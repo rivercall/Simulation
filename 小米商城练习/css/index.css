@@ -1,0 +1,486 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-26 14:14:30
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-27 00:57:25
+*/
+/* top-banner区开始 */
+.top-banner{
+  background-color: #333;
+  min-width: 1226px;
+}
+
+.top-banner a{
+  display: block;
+  background: url("../images/banner.jpg") no-repeat;
+  height: 120px;
+  background-position: center;
+}
+/* top-banner部分结束 */
+
+/* nav导航区开始 */
+nav{
+  background-color: #333;
+  /* height: 60px; */
+  min-width: 1226px;
+  position: relative;
+  z-index: 2;
+}
+
+nav ul li{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+}
+
+nav ul .space{
+  padding: 0 10px;
+  color: #999;
+}
+
+nav ul .last{
+  width: 120px;
+  background-color: #555;
+  text-align: center;
+  margin-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+nav ul .last:hover{
+  background-color: white;
+}
+
+nav ul .last:hover a{
+  color: black;
+}
+
+nav ul .last div{
+  height: 250px;
+  width: 500px;
+  background-color: #ffa;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 40px;
+  right: 0;
+  display: none;
+}
+
+nav ul .last:hover div{
+  display: block;
+}
+
+nav ul .last .iconfont{
+  font-family: iconfont;
+  font-size: 16px;
+}
+
+nav ul li a{
+  color:#fff;
+  font-size: 12px;
+}
+
+nav ul li a:hover{
+  color:orange;
+}
+
+/* nav导航区结束 */
+
+/* header部分开始 */
+header{
+  position: relative;
+}
+
+header .logo a{
+  display: block;
+  height: 56px;
+  width: 56px;
+  background:url("../images/logo-header.png") no-repeat;
+  float: left;
+}
+
+header .show a{
+  display: block;
+  height:56px;
+  width: 180px;
+  background: url("../images/yyymix.gif") no-repeat;
+  float: left;
+}
+
+header .hotword li{
+  height: 56px;
+  line-height: 56px;
+  float: left;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+header .hotword a:hover{
+  color:red;
+}
+
+header .search{
+  padding: 3px 0;
+  position: relative;
+}
+
+header .search .tips{
+  position: absolute;
+  right: 70px;
+  top:20px;
+}
+
+header .search .tips a{
+  display: block;
+  height: 20px;
+  font-size: 12px;
+  margin-left: 20px;
+  padding: 0 3px;
+  background-color: #ccc;
+  float: left;
+}
+
+header .search .tips a:hover{
+  background-color: orange;
+}
+
+header .search .text{
+  display: block;
+  float: left;
+  box-sizing:border-box;
+  height: 50px;
+  width: 220px;
+  padding-left: 30px;
+  border: 1px solid gray;
+}
+
+header .search .submit{
+  font-family: iconfont;
+  font-size: 30px;
+  display: block;
+  float: left;
+  box-sizing:border-box;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid gray;
+}
+
+header .search .submit:hover{
+  background-color: orange;
+}
+
+header .w{
+  padding:22px 0;
+}
+/* header部分结束 */
+
+/* section部分开始 */
+section .w {
+  display: block;
+  height: 460px;
+  background: url("../images/bj.jpg") no-repeat;
+  position: relative;
+}
+
+section aside ul{
+  box-sizing:border-box;
+  width: 234px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 20px 0;
+}
+
+section aside ul li{
+  box-sizing:border-box;
+  height: 42px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 0px 30px;
+  line-height: 42px;
+  font-size: 14px;
+}
+
+section aside ul li:hover{
+  background-color: orange;
+}
+
+section aside ul li div{
+  height: 200px;
+  width: 200px;
+  /* border: 1px solid black; */
+  background-color: #ffa;
+  display: none;
+  position: absolute;
+  left: 234px;
+  top:0px;
+}
+
+section aside ul li:hover div{
+  display: block;
+}
+
+section aside a{
+  color: #fff;
+}
+
+section aside span{
+  display: block;
+  float: right;
+  font-family: iconfont;
+  color:#fff;
+}
+
+section .w .dot{
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
+}
+
+section .dot li{
+  float: left;
+  padding: 0 10px;
+}
+
+section .dot a{
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffa;
+  box-sizing:border-box;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+section .change{
+  width: 992px;
+  position: absolute;
+  right: 0;
+  top: 195px;
+}
+
+section .change a{
+  display: block;
+  font-family: iconfont;
+  color: #fff;
+  font-size: 40px;
+  line-height: 69px;
+  width: 41px;
+}
+
+section .change a:hover{
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* section部分结束 */
+
+/* 服务区开始 */
+.wrap{
+  margin-top: 20px;
+}
+
+.wrap .server{
+  height: 170px;
+  width: 234px;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.wrap .server li{
+  box-sizing:border-box;
+  width: 78px;
+  height: 85px;
+  padding: 4px;
+  /* background-color: red; */
+  float: left;
+  text-align: center;
+}
+
+.wrap .server .up{
+  border-bottom: 1px solid gray;
+}
+
+.wrap .server .middle{
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.wrap .server li a{
+  box-sizing:border-box;
+  display: block;
+  height: 77px;
+  width: 70px;
+  padding: 10px 0px;
+  color: white;
+  /* background-color: #ffa; */
+}
+
+.wrap .server li i{
+  font-family: iconfont;
+}
+
+.wrap .server li:hover{
+  background-color: orange;
+}
+
+
+.wrap .gg a{
+  display: block;
+  width: 316px;
+  height: 170px;
+  background: url("../images/gunbotu.jpg") no-repeat;
+  background-size:316px 170px;
+}
+
+.wrap .gg a:hover{
+  box-shadow: 0px 10px 10px gray;
+}
+
+.wrap .one{
+  padding-left: 14px;
+}
+
+.wrap .two{
+  padding: 0 15px;
+}
+/* 服务区结束 */
+
+/* 购买区开始 */
+.buy{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.buy .buy-hd{
+  margin-bottom: 10px;
+}
+
+.buy .buy-hd h2{
+  line-height: 58px;
+}
+
+.buy .buy-hd .fr{
+  height: 58px;
+}
+
+.buy .buy-hd .fr li{
+  display: block;
+  box-sizing:border-box;
+  float: left;
+  line-height: 38px;
+  padding: 10px 10px;
+}
+
+.buy .buy-hd .fr li:hover{
+  border-bottom: 2px solid orange;
+}
+
+.buy .buy-hd .fr li:hover a{
+  color: orange;
+}
+
+.buy .buy-bd a{
+  display: block;
+  float: left;
+  height: 300px;
+  width: 234px;
+  background-color: #ffc;
+  margin-right: 14px;
+  position: relative;
+}
+
+.buy .buy-bd a div{
+  height: 100px;
+  width: 234px;
+  background-color: orange;
+  text-align: center;
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.buy .buy-bd a:hover div{
+  display: block;
+}
+
+.buy .buy-bd .five a{
+  margin: 0;
+}
+/* 购买区结束 */
+
+/* footer区开始 */
+footer{
+  background-color: #eee;
+}
+
+footer .repair ul{
+  display: flex;
+  justify-content:space-around;
+  padding: 25px 0 15px 0;
+}
+
+footer .repair ul li{
+  line-height: 40px;
+}
+
+footer .repair ul li:hover a{
+  color:red;
+}
+
+footer .repair ul li:hover span{
+  color:red;
+}
+
+footer .repair li span{
+  font-family: iconfont;
+}
+
+footer .repair{
+  border-bottom: 1px solid gray;
+}
+
+footer .links{
+  height: 192px;
+}
+
+footer .links .left{
+  float: left;
+}
+
+footer .links .left dl{
+  float: left;
+  width: 160px;
+  height: 132px;
+  padding: 30px 0;
+}
+
+footer .links .left dt{
+  line-height: 42px;
+  height: 42px;
+  font-size: 16px;
+}
+
+footer .links .left dd{
+  line-height: 25px;
+  height: 25px;
+  font-size: 14px;
+}
+
+footer .links .right{
+  float: right;
+  padding: 40px 0;
+}
+
+footer .links .right .content{
+  float: right;
+  width: 255px;
+  height: 112px;
+  border-left:1px solid gray;
+}
+
+/* footer区结束 */
+
+
+
+
+

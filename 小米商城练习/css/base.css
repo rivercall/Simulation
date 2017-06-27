@@ -1,0 +1,52 @@
+/*
+* @Author: hanli
+* @Date:   2017-06-23 20:19:15
+* @Last Modified by:   hanli
+* @Last Modified time: 2017-06-26 19:29:26
+*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.w{
+  width: 1226px;
+  margin: 0 auto;
+  min-width: 1226px;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  height: 0px;
+  width: 0px;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+

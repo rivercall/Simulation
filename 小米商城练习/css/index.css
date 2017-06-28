@@ -2,7 +2,7 @@
 * @Author: hanli
 * @Date:   2017-06-26 14:14:30
 * @Last Modified by:   hanli
-* @Last Modified time: 2017-06-27 00:57:25
+* @Last Modified time: 2017-06-27 14:25:04
 */
 /* top-banner区开始 */
 .top-banner{
@@ -246,10 +246,15 @@ section .dot a{
   display: block;
   width: 10px;
   height: 10px;
-  background-color: #ffa;
+  background-color: blue;
   box-sizing:border-box;
   border: 2px solid gray;
   border-radius: 5px;
+}
+
+section .dot a:hover{
+  border: 2px solid #ff6700;
+  background-color: #fff;
 }
 
 section .change{
@@ -457,13 +462,17 @@ footer .links .left dl{
 footer .links .left dt{
   line-height: 42px;
   height: 42px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 footer .links .left dd{
   line-height: 25px;
   height: 25px;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+footer .links .left dd:hover a{
+  color: orange;
 }
 
 footer .links .right{
@@ -476,9 +485,115 @@ footer .links .right .content{
   width: 255px;
   height: 112px;
   border-left:1px solid gray;
+  text-align: center;
 }
 
+footer .links .content .tel{
+  color: #ff6700;
+  font-size: 22px;
+}
+
+footer .links .content .time{
+  font-size: 12px;
+}
+
+footer .links .content a{
+  display: block;
+  box-sizing:border-box;
+  height: 30px;
+  width: 120px;
+  border:1px solid #ff6700;
+  color: #ff6700;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+footer .links .content a:hover{
+  background-color: #ff6700;
+  color: white;
+}
+
+footer .links .content .icon{
+  font-family: iconfont;
+}
 /* footer区结束 */
+
+/* site区开始 */
+.info .container{
+  height: 106px;
+  padding: 30px 0;
+  position: relative;
+}
+
+.info .logo a{
+  display: block;
+  height: 57px;
+  width: 57px;
+  padding-right: 10px;
+  background: url("../images/logo-header.png") no-repeat;
+}
+
+.info .text p{
+  font-size: 12px;
+} 
+
+.info .text a{
+  font-size: 12px;
+  color: #333;
+}
+
+.info .text a:hover{
+  color:  #ff6700;
+}
+
+.info .text span{
+  font-size: 12px;
+}
+
+.info .links a{
+  display: block;
+  height: 28px;
+  width: 85px;
+  margin-left: 7px;
+  background-size: contain !important; 
+}
+
+.info .links li{
+  float: left;
+}
+
+.info .links .one{
+  background: url("../images/truste.png") no-repeat;
+}
+
+.info .links .two{
+  background: url("../images/v-logo-1.png") no-repeat;
+}
+
+.info .links .three{
+  background: url("../images/v-logo-2.png") no-repeat;
+}
+
+.info .links .four{
+  background: url("../images/v-logo-3.png") no-repeat;
+}
+
+.info .end p{
+  text-align: center;
+  clear: both;
+  height: 40px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+.info .end p:hover{
+  color: #ff6700;
+}
+
+/* site区结束 */
+
 
 
 

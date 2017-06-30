@@ -283,10 +283,57 @@ section .middle{
   left:200px;
 }
 
-section .middle .one a{
+section .middle .one>a{
   display: block;
   width:790px;
   height:340px;
+}
+
+section .middle .one .change{
+  height: 60px;
+  width: 790px;
+  position: absolute;
+  top:140px;
+  text-align: center;
+}
+
+section .middle .one .change a{
+  width:30px;
+  height:60px;
+  line-height: 60px;
+  color:#fff;
+}
+
+section .middle .one .change a:hover{
+  background-color: rgba(0,0,0,0.6);
+}
+
+section .middle .one ul{
+  height:20px;
+  width:182px;
+  background-color: rgba(200,200,200,0.6);
+  border-radius:10px;
+  position: absolute;
+  top: 300px;
+  left: 305px;
+}
+
+section .middle .one ul a{
+  display: block;
+  height: 12px;
+  width:12px;
+  border-radius:6px;
+  background-color: #fff;
+  float:left;
+  margin: 4px 5px;
+}
+
+section .middle .one ul .first{
+  margin-left:8px;
+}
+
+section .middle .one ul a:hover{
+  background-color:#f10215;
 }
 
 section .middle .two{

@@ -1,0 +1,639 @@
+/*top-banner开始*/
+.top-banner{
+  background-color: #000;
+  position: relative;
+  z-index: 9;
+  
+}
+
+.top-banner .w{
+  position: relative;
+}
+
+.top-banner .w i{
+  background-color: rgba(255,255,255,0.5);
+  color: #fff;
+  position: absolute;
+  top:5px;
+  right:0;
+}
+/*top-banner结束*/
+
+
+
+/*shortcut 开始*/
+.shortcut{
+  height: 30px;
+  background-color: #e3e4e5;
+}
+
+.shortcut .w{
+  position: relative;
+}
+
+.shortcut .fl{
+  height:30px;
+  line-height: 30px;
+  position: absolute;
+  left:190px;
+  padding-left:20px;
+}
+
+.shortcut .fr li{
+  float: left;
+  height:30px;
+  line-height:30px;
+}
+
+.shortcut .fr .space{
+  height: 10px;
+  width: 1px;
+  background-color: #ccc;
+  margin: 10px 11px;
+}
+
+.shortcut .fr .zhuce a{
+  color: #f10215 ;
+  padding-left:20px;
+}
+
+.shortcut .fr .zhuce a:hover{
+  color: darkred ;
+}
+
+.shortcut .fr li .iconfont{
+  font-size: 12px;
+}
+
+.shortcut .fr li:last-child a{
+   float:right
+ }
+
+.shortcut .fr li .tri-angle{
+  width: 0px;
+  height:0px;
+  border: 5px solid;
+  border-color:transparent transparent #fff transparent;
+  position: absolute;
+  bottom: -1px;
+  right: 28px;
+  z-index: 9;
+}
+
+.shortcut .fr li .qrcode{
+  height: 68px;
+  width: 68px;
+  box-sizing: border-box;
+  border: 1px solid #cfcfcf;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+}
+
+.shortcut .fr li .qrcode img{
+  margin:3px;
+}
+/*shortcut 结束*/
+
+
+
+/*header部分开始*/
+header{
+  position:relative;
+  height: 140px;
+}
+
+header .logo a{
+  height:171px;
+  width:190px;
+  background: url("../imgs/logo_03.jpg") no-repeat;
+  background-size:190px 171px;
+  position: absolute;
+  top:-30px;
+  left:0px;
+  box-shadow: 0px 0px 10px 5px #e0e0e0;
+  z-index: 2;
+}
+
+header .search{
+  width: 550px;
+  height: 35px;
+  position: absolute;
+  top:25px;
+  left:320px;
+}
+
+header .search .text {
+  height: 35px;
+  width: 500px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  padding-left: 10px;
+}
+
+header .search .submit{
+  height:35px;
+  width: 50px;
+  background-color:#f10215;
+  position: absolute;
+  color: #fff;
+  top:0;
+  left:500px;
+}
+
+header .search .camera a{
+  height: 15px;
+  width:20px;
+  position: absolute;
+  background:url("../imgs/sprite-photo-search.png") no-repeat;
+  position: absolute;
+  left:460px;
+  top:10px;
+}
+
+header .search .camera a:hover{
+  background-position:-30px 0;
+}
+
+header .shopping{
+  height:35px;
+  width:190px;
+  box-sizing: border-box;
+  border:1px solid #e3e4e5;
+  background-color: #fff;
+  position: absolute;
+  top:25px;
+  left:900px;
+  text-align: center;
+  line-height: 33px;
+  cursor: pointer;
+}
+
+header .shopping:hover{
+  background-color: #f10215;
+}
+
+header .shopping:hover a{
+  color:#fff;
+}
+
+header .shopping:hover i{
+  color:#fff;
+}
+
+header .shopping div{
+  width: 14px;
+  height:14px;
+  border-radius: 7px;
+  background-color:#f10215 ;
+  line-height:14px;
+  color:#fff;
+  position: absolute;
+  top: 5px;
+  right: 45px;
+}
+
+header .hotword{
+  position: absolute;
+  top:70px;
+  left:320px;
+}
+
+header .hotword li{
+  float: left;
+  margin-right:10px;
+}
+
+header nav{
+  position: absolute;
+  left:230px;
+  bottom:10px;
+}
+
+header nav li{
+  float: left;
+  margin-right:15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header nav .space{
+  height: 10px;
+  border-right:1px solid #ccc;
+  position: relative;
+  bottom:-4px;
+}
+
+header .surprise{
+  height: 40px;
+  width:190px;
+  position: absolute;
+  right:0px;
+  bottom:5px;
+}
+
+header .surprise a{
+  display: block;
+  height: 40px;
+  width:190px;
+}
+/*header部分结束*/
+
+
+
+/*section部分开始*/
+section{
+  position:relative;
+  height:480px;
+  z-index: 10;
+}
+
+section .left{
+  float:left;
+  height: 480px;
+  width:190px;
+  background-color: #6e6568;
+}
+
+section .left ul{
+  margin:20px 0 10px 0px;
+}
+
+section .left li{
+  height: 30px;
+  line-height:30px;
+  font-size:14px;
+  padding-left: 10px;
+}
+
+section .left li:hover{
+  background-color: orange;
+}
+
+section .left a{
+  color:#fff;
+}
+
+section .middle{
+  width:790px;
+  height:480px;
+  position: absolute;
+  left:200px;
+}
+
+section .middle .one a{
+  display: block;
+  width:790px;
+  height:340px;
+}
+
+section .middle .two{
+  position: absolute;
+  bottom:0px;
+}
+
+section .middle .two a{
+  display: block;
+  width:390px;
+  height:130px;
+}
+
+section .middle .three{
+  position: absolute;
+  bottom:0px;
+  right:0px;
+}
+
+section .middle .three a{
+  display: block;
+  width:390px;
+  height:130px;
+}
+
+section .right{
+  float:right;
+  height: 480px;
+  width:190px;
+  background-color: #fff;
+  position: relative;
+}
+
+section .right .one{
+  height: 115px;
+  width:190px;
+}
+
+section .right .one>a{
+  /*display: block;*/
+  height: 50px;
+  width:50px;
+  position: absolute;
+  top:15px;
+  left:15px;
+  overflow: hidden;
+}
+
+section .right .one img{
+  position: absolute;
+  left:-70px;
+  z-index: 1;
+}
+
+section .right .one img.inner{
+  position: absolute;
+  width:48px;
+  height:48px;
+  left:1px;
+  top:1px;
+  z-index: 0;
+}
+
+section .right .one .text{
+  position: absolute;
+  left:73px;
+  top:20px;
+}
+
+section .right .one .vip a{
+  display: block;
+  width:70px;
+  height:20px;
+  border:2px solid #e01222 ;
+}
+section .right .one .vip .new{
+  position: absolute;
+  left:15px;
+  top:75px;
+  text-align: center;
+  color: #e41247;
+}
+
+section .right .one .vip a:hover{
+  background-color: #e41247;
+  color:#fff;
+}
+
+section .right .one .vip .plus{
+  position: absolute;
+  left:99px;
+  top:75px;
+  text-align: center;
+  color: #e41247;
+}
+
+section .right .two{
+  height: 155px;
+  width:190px;
+  border-top:1px solid #e6e6e6;
+}
+
+section .right .two .less{
+  margin:7px 15px 10px 13px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+section .right .two .less .fl{
+  margin-right:15px;
+}
+
+section .right .two .less li:first-child{
+  padding:0 5px;
+  border-bottom:2px solid #db192b;
+}
+
+section .right .two .less .space{
+  height:17px;
+  width:1px;
+  background-color: #dfe0e1;
+  margin-left: -5px;
+}
+
+section .right .two .more{
+  margin:5px 15px 0px 13px;
+}
+
+section .right .two .more li{
+  height:25px;
+  line-height:25px;
+}
+  
+section .right .three{
+  height: 209px;
+  width:190px;
+  border-top:1px solid #e6e6e6;
+}
+
+section .right .three li{
+  height:69px;
+  width:47px;
+  text-align:center;
+  float:left;
+  font-size:12px;
+}
+
+section .right .three li a{
+  display: block;
+  margin-top:20px;
+}
+
+section .right .three .down{
+  border-bottom:1px solid #e6e6e6;
+}
+
+section .right .three .right{
+  border-right:1px solid #e6e6e6;
+}
+
+section .right .three .sink{
+  width:46px;
+}
+/*section部分结束*/
+
+
+
+/*seckill部分开始*/
+.seckill{
+  margin-top:10px;
+  /*margin-bottom: 10px;*/
+  width:1190px;
+  height:55px;
+  background: url("../imgs/seckill_hd.png");
+  position:relative;
+}
+
+.seckill .left{
+  float: left;
+  margin: 8px 30px;
+}
+
+.seckill .left .block{
+  height:40px;
+  width:35px;
+  float: left;
+  overflow: hidden;
+  position:relative;
+}
+
+.seckill .left .block img{
+  position: absolute;
+  top:-40px;
+  left:0px;
+}
+
+.seckill .left span.big{
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  font-size:30px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.seckill .left a.small{
+  display: block;
+  height: 20px;
+  line-height:20px;
+  padding-top: 15px;
+  padding-left: 10px;
+  color:#fff;
+}
+
+.seckill .left .point{
+  display: block;
+  height:16px;
+  width:15px;
+  float: left;
+  overflow: hidden;
+  position:relative;
+  padding-top:20px;
+  padding-left: 15px;
+}
+
+.seckill .left .point img{
+  position: absolute;
+  top: -23px;
+  left: -148px;
+}
+
+.seckill .right{
+  margin: 8px 0px;
+  height: 40px;
+}
+
+.seckill .right span{
+  display: block;
+  float:left;
+  padding:18px 18px 0 15px;
+  font-size:16px;
+  color:#fff;
+}
+
+.seckill .right img{
+  display: block;
+  float:left;
+}
+
+.seckill .sanjiao{
+  height: 25px;
+  width: 25px;
+  position:absolute;
+  left:0;
+  top:0;
+  overflow: hidden;
+}
+
+.seckill .sanjiao img{
+  position:absolute;
+  left: -193px;
+  top: -52px;
+}
+
+.seckill .sanjiao:hover img{
+  left: -193px;
+  top: -3px;
+}
+/*seckill部分结束*/
+
+
+/*famous部分开始*/
+.famous{
+  height:250px;
+  background-color: #fff;
+}
+
+.famous ul{
+  margin:12px 10px 13px 0;
+}
+
+.famous li{
+  float:left
+}
+
+.famous li.big{
+  width:199px;
+  height:225px;
+}
+
+.famous li.space{
+  width:1px;
+  height:225px;
+  background-color: #e7e7e7;
+}
+
+.famous li.last{
+  width:180px;
+  height:225px;
+}
+
+.famous .big a{
+  display: block;
+  height: 180px;
+  width:160px;
+  margin:10px 19px 10px 20px;
+}
+
+.famous .big img{
+  display: block;
+  height:130px;
+  width:140px;
+}
+
+.famous .big p{
+  text-align: center;
+}
+
+.famous .big span.one{
+  font-size: 20px;
+  color: #f1023a;
+}
+
+.famous .big span.two{
+  font-size: 12px;
+  color:#999;
+  text-decoration: line-through;
+}
+
+.famous .last a{
+  display: block;
+  height: 225px;
+  width:180px;
+}
+
+.famous .last a img{
+  height:225px;
+  width: 180px;
+}
+
+
+/*famous部分结束*/
+
+
+
+
+/*end参考线*/
+.end{
+  height:20px;
+  background-color: #ff8;
+}

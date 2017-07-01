@@ -672,11 +672,212 @@ section .right .three .sink{
   height:225px;
   width: 180px;
 }
-
-
 /*famous部分结束*/
 
 
+/*fast部分开始*/
+.fast{
+  background-color: #eaeaea;
+  height: 102px;
+  border-bottom: 1px solid #dedede;
+}
+
+.fast .w li{
+  float: left;
+  padding:30px 59px;
+}
+
+.fast .w li div{
+  height: 42px;
+  width: 36px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.fast .w li span{
+  display:block;
+  height:30px;
+  line-height:30px;
+  float: right;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left:9px;
+}
+
+.fast .w li:nth-child(2) img{
+  position: absolute;
+  top:-43px;
+  left:0px;
+}
+
+.fast .w li:nth-child(3) img{
+  position: absolute;
+  top:-86px;
+  left:0px;
+}
+
+.fast .w li:nth-child(4) img{
+  position: absolute;
+  top:-129px;
+  left:0px;
+}
+/*fast部分结束*/
+
+
+/*server部分开始*/
+.server{
+  background-color: #eaeaea;
+}
+
+.server .w{
+  height:200px;
+  border-bottom: 1px solid #dedede;
+}
+
+.server .fl dl{
+  float: left;
+  padding:23px 142px 0 0;
+}
+
+.server .fl dl:last-child{
+  padding-right: 0px;
+}
+
+.server .fl dl dt{
+  font-size: 16px;
+  height: 30px;
+  line-height:30px;
+}
+
+.server .fl dl dd{
+  font-size:12px;
+  height:22px;
+  line-height: 22px;
+}
+
+.server .fr{
+  width:200px;
+  height: 150px;
+  background: url("../imgs/ico_footer.png") no-repeat;
+  margin-top: 23px;
+}
+
+.server .fr p:first-child{
+  margin:15px auto;
+  text-align: center;
+}
+
+.server .fr a{
+  display: block;
+  padding-right:15px;
+  text-align: right;
+}
+
+.server .fr a i{
+  font-size: 12px;
+}
+/*server部分结束*/
+
+
+/*footer部分开始*/
+footer{
+  background-color: #eaeaea;
+  height: 200px;
+}
+
+footer .w .one{
+  padding: 20px 0 15px 40px;
+}
+
+footer .w .two{
+  padding-left:197px;
+}
+
+footer .w .three{
+  padding-left:215px;
+}
+
+footer .w .four{
+  padding-left:390px;
+}
+
+footer .w .five{
+  padding-left:450px;
+}
+
+footer .w li{
+  float:left;
+  font-size:12px;
+}
+
+footer .w .space{
+  margin:0 11px;
+  width: 2px;
+  height: 13px !important;
+  background-color: #ccc;
+  position: relative;
+  top:5px;
+}
+
+footer .w .one .space{
+  position: relative;
+  top:2px;
+}
+
+footer .w .middle li{
+  height: 23px;
+}
+
+footer .w .middle a{
+  line-height: 23px;
+}
+
+footer .w .middle a{
+  color:#999;
+}
+
+footer .w a:hover{
+  color:#C81623;
+}
+
+footer .links{
+  margin-top: 17px;
+  padding-left: 270px;
+}
+
+footer .links a{
+  display: block;
+  height: 30px;
+  width: 103px;
+  margin-right:6px;
+  background: url("../imgs/ico_footer.png") no-repeat;
+}
+
+footer .links li:first-child a{
+  background-position: 0px -154px;
+}
+
+footer .links li:nth-child(2) a{
+  background-position: 0px -186px;
+}
+
+footer .links li:nth-child(3) a{
+  background-position: 0px -219px;
+}
+
+footer .links li:nth-child(4) a{
+  background-position: -104px -154px;
+}
+
+footer .links li:nth-child(5) a{
+  background-position: -104px -186px;
+}
+
+footer .links li:nth-child(6) a{
+  background-position: -104px -219px;
+}
+/*footer部分结束*/
 
 
 /*end参考线*/

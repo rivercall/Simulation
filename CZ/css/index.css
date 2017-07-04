@@ -1,0 +1,30 @@
+/*nav部分开始*/
+nav{
+  height: 60px;
+  background-color: dodgerblue;
+}
+
+nav .w .left{
+  position: relative;
+}
+
+nav .w .left span,
+nav .w .left a{
+  float:left;
+  color:#fff;
+  font-size: 12px;
+  line-height: 60px;
+  padding-right: 20px;
+}
+
+nav .w .left .space{
+  background-color: #fff;
+  width: 2px;
+  height: 14px;
+  padding-right: 0;
+  margin-left:-10px;
+  position: absolute;
+  top:24px;
+  
+}
+/*nav部分结束*/
